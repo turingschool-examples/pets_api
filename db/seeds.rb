@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 pets = Pet.create([
-    {name:'Pip', animal_type:'dog', age: 4},
-    {name:'Harley', animal_type:'dog', age: 1},
-    {name:'Chip', animal_type:'bird', age: 15},
-    {name:'Ender', animal_type:'cat', age: 2}
+    {name:'Wile E.', animal_type:'coyote', age: 4},
+    {name:'Road Runner', animal_type:'bird', age: 1},
+    {name:'Tweety', animal_type:'bird', age: 15},
+    {name:'Sylvester', animal_type:'cat', age: 2}
   ])
