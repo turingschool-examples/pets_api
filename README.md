@@ -18,7 +18,7 @@ This is an api that is used in Backend Mod 3 exercise for students to explore ap
 ## Endpoints
 
 
-#### Request `GET https://pets-1.herokuapp.com/pets`
+#### Request `GET https://pets-1.herokuapp.com/api/v1/pets`
 
 Example Response
 ```json
@@ -58,7 +58,7 @@ Example Response
 ]
 ```
 
-#### Request `GET https://pets-1.herokuapp.com/pets/:id`
+#### Request `GET https://pets-1.herokuapp.com/api/v1/pets/:id`
 
 Example Response
 ```json
@@ -72,7 +72,7 @@ Example Response
 }
 ```
 
-#### Request `POST https://pets-1.herokuapp.com/pets`
+#### Request `POST https://pets-1.herokuapp.com/api/v1/pets`
 
 Request Example with required body
 ```json
@@ -96,13 +96,13 @@ Example Response
 }
 ```
 
-#### Request `DELETE https://pets-1.herokuapp.com/pets/:id`
+#### Request `DELETE https://pets-1.herokuapp.com/api/v1/pets/:id`
 
 Example Response
 `204 No Content`
 
 
-#### Request `PUT https://pets-1.herokuapp.com/pets/:id`
+#### Request `PUT https://pets-1.herokuapp.com/api/v1/pets/:id`
 
 Example Request with body
 ```json
