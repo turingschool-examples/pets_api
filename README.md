@@ -11,7 +11,7 @@ This is an api that is used in Backend Mod 3 exercise for students to explore ap
     - Install the [Faraday gem](https://github.com/lostisland/faraday)
     - Create a ruby file and require the Faraday library along with a debugger, such as [pry](https://github.com/pry/pry)
     - In this newly created Ruby file write requests for each endpoint, use your debugger to check the response body
-    
+
 *Extra Challenge:* Explore how to parse a JSON response [here](https://ruby-doc.org/stdlib-2.6.3/libdoc/json/rdoc/JSON.html)
 
 
@@ -78,11 +78,9 @@ Request Example with required body
 ```json
   POST https://pets-1.herokuapp.com/pets
   body: {
-          "pet": {
-            "name": "Bugs",
-            "animal_type": "bunny",
-            "age": 5
-          }
+          "name": "Bugs",
+          "animal_type": "bunny",
+          "age": 5
         }
 ```
 
