@@ -2,6 +2,12 @@
 
 This is an api that is used in Backend Mod 3 exercise for students to explore api tools including Postman and Faraday.
 
+### Versions
+
+Rails 5.2.4.3
+
+Ruby 2.5.3
+
 ## Exercises
 
 1. Using Postman, try to get a successful response from each endpoint.
